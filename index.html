@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini API Example</title>
+    <script type="module">
+        import { GoogleGenerativeAI } from 'https://esm.run/@google/generative-ai';
+        window.GoogleGenerativeAI = GoogleGenerativeAI; // Make it globally available for your script.js
+    </script>
+    <script src="script.js" type="module" defer></script>
+</head>
+<body>
+    <h1>Gemini API Response:</h1>
+    <p id="aiResponse"></p>
+</body>
+</html>
